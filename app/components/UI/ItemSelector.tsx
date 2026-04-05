@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { useWorkspace, MAX_MONITORS } from '../../store/useWorkSpace';
 
-export default function ItemSelector() {
+const ItemSelector = () => {
   const { setDesk, setChair, toggleMonitor, toggleLamp, togglePlant, desk, chair, monitors } =
     useWorkspace();
 
@@ -75,4 +75,6 @@ export default function ItemSelector() {
       </div>
     </div>
   );
-}
+};
+
+export default ItemSelector;

@@ -2,7 +2,7 @@
 
 import { useWorkspace, MAX_MONITORS } from '../../store/useWorkSpace';
 
-export default function Summary() {
+const Summary = () => {
   const { desk, chair, monitors, lamp, plant } = useWorkspace();
   const monitorCount = Math.min(monitors, MAX_MONITORS);
 
@@ -24,4 +24,6 @@ export default function Summary() {
       </div>
     </div>
   );
-}
+};
+
+export default Summary;
