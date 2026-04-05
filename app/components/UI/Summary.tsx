@@ -11,7 +11,7 @@ export default function Summary() {
       <div className="mb-4 flex items-center justify-between">
         <h2 className="font-semibold">Your Setup</h2>
         <button className="rounded-xl bg-white px-4 py-2 text-sm text-black transition hover:scale-105">
-          Rent 🚀
+          Rent Now
         </button>
       </div>
 
